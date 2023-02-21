@@ -3,3 +3,8 @@ __pycache__/
 venv/
 .idea/
 .git/
+.breakpoints
+.replit
+poetry.lock
+pyproject.toml
+replit.nix
