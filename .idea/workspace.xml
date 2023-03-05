@@ -4,30 +4,75 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c013c1c0-e991-4bf8-95d8-8c1b00d89ed3" name="Changes" comment="Initial Commit" />
+    <list default="true" id="c013c1c0-e991-4bf8-95d8-8c1b00d89ed3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../pythonbot/cogs/debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonbot/cogs/debug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonbot/cogs/economy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonbot/cogs/economy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonbot/cogs/fun.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonbot/cogs/fun.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonbot/cogs/image.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonbot/cogs/image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonbot/cogs/moderation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonbot/cogs/moderation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonbot/cogs/nonsense.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonbot/cogs/nonsense.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonbot/cogs/utility.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonbot/cogs/utility.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonbot/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonbot/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonbot/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonbot/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pythonbotapi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonbotapi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../pythonbot" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2M4J8Ht5zA4Y8vloWKjXK3IVMBe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "configurable.group.editor"
+    "settings.editor.selected.configurable": "preferences.sourceCode.Python"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonbot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Дмитрий\Dropbox\Мой ПК (DESKTOP-KUSE0FD)\Documents\GitHub\pythonbot\venv\Scripts\python.exe" />
+      <option name="SDK_NAME" value="Python 3.11 (pythonbot)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../pythonbot" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../pythonbot/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,11 +96,37 @@
       <option name="project" value="LOCAL" />
       <updated>1677021568091</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial Commit">
+      <created>1677021988662</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677021988662</updated>
+    </task>
+    <task id="LOCAL-00004" summary="some minor updates idk">
+      <created>1677865326115</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677865326116</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="some minor updates idk" />
+    <option name="LAST_COMMIT_MESSAGE" value="some minor updates idk" />
   </component>
 </project>

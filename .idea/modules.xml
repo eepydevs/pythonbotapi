@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../pythonbot/.idea/pythonbot.iml" filepath="$PROJECT_DIR$/../pythonbot/.idea/pythonbot.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/pythonbotapi.iml" filepath="$PROJECT_DIR$/.idea/pythonbotapi.iml" />
     </modules>
   </component>
