@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c013c1c0-e991-4bf8-95d8-8c1b00d89ed3" name="Changes" comment="10.8.0: changed the way database works, improvements to /afk">
-      <change beforePath="$PROJECT_DIR$/../pythonbot/cogs/debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonbot/cogs/debug.py" afterDir="false" />
+    <list default="true" id="c013c1c0-e991-4bf8-95d8-8c1b00d89ed3" name="Changes" comment="some bug fixes and minor improvements">
+      <change beforePath="$PROJECT_DIR$/../pythonbot/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonbot/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonbot/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonbot/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonbot/cogs/fun.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonbot/cogs/fun.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pythonbot/cogs/utility.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonbot/cogs/utility.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pythonbot/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonbot/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonbot/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonbot/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonbot/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonbot/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,14 +34,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Python&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "RESTKit.sync.cert.Ide": "true",
+    "RESTKit.sync.env.Ide": "true",
+    "RESTKit.sync.requestConfig.Ide": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Дмитрий/Dropbox/Мой ПК (DESKTOP-KUSE0FD)/Documents/GitHub/pythonbot",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonbot" />
@@ -111,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678042485818</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="some bug fixes and minor improvements">
+      <created>1678203287881</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678203287882</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +144,7 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="some minor updates idk" />
     <MESSAGE value="10.8.0: changed the way database works, improvements to /afk" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.8.0: changed the way database works, improvements to /afk" />
+    <MESSAGE value="some bug fixes and minor improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="some bug fixes and minor improvements" />
   </component>
 </project>
