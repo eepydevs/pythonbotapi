@@ -16,8 +16,12 @@ def main():
     
   @app.route("/")
   def home():
-    return "<center><h1>Home page</h1><center><p>The available endpoints:<br>/api/balance (userid=discord_id optional)<br>/api/inventory (userid=discord_id optional)</p>"
+    return "<center><h1>Home page</h1><center><p>The available endpoints:<br>/api/ping<br>/api/balance (userid=discord_id optional)<br>/api/inventory (userid=discord_id optional)</p>"
 
+  class Ping(Resource):
+    def get(self):
+      return db["ping"]
+  
   class Balance(Resource):
     def get(self):
       query_parameters = request.args
@@ -36,6 +40,7 @@ def main():
       else:
         return db["inventory"]
 
+  api.add_resource(Ping, "/api/ping")
   api.add_resource(Balance, "/api/balance")
   api.add_resource(Inventory, "/api/inventory")
   
