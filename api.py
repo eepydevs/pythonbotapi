@@ -1,10 +1,10 @@
 import os
 import datetime, time
-from flask import Flask, request
+from flask import Flask, request, render_template
 from utils import db
+import hashlib
 from dotenv import load_dotenv
 load_dotenv()
-
 
 app = Flask(__name__)
 
@@ -18,11 +18,11 @@ def favicon():
 
 @app.route("/")
 def home():
-  return """<center><h1>Home page of python bot</h1><center><p>Available urls: /api</p>"""
+  return render_template("home.html")
 
 @app.route("/api")
 def api():
-  return """<center><h1>Available endpoints:</h1><center><p>/api/ping<br>/api/balance (userid=discord_id optional)<br>/api/bank (userid=discord_id optional) (IN_DEV)<br>/api/inventory (userid=discord_id optional)</p>"""
+  return render_template("api.html")
 
 @app.route("/api/ping")
 def ping():
@@ -57,3 +57,16 @@ def inventory():
     return db["inventory"][str(userid)] if str(userid) in db["inventory"] else ({"message": "The user could not be found.", "status": 404}, 404)
   else:
     return db["inventory"]
+
+@app.route("/api/testkeys")
+def test():
+  query_parameters = request.args
+  apikey = query_parameters.get("apikey")
+  if not apikey:
+    return {"error": "Missing API key"}, 400
+  hashed_apikey = hashlib.sha256(apikey.encode()).hexdigest()
+  if hashed_apikey not in db["apikeys"]:
+    return {"error": "Invalid API key"}, 404
+  if not db["apikeys"][hashed_apikey]["isvalid"]:
+    return {"error": "API key is invalid"}, 401
+  return {"message": db["apikeys"][hashed_apikey]}

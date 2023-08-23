@@ -169,4 +169,4 @@ class RedisDBLive(dict):
       else:
         self._var = json.loads(self._redis.hget(self._name, self._key))
 
-db = RedisDBLive(host = os.environ["REDISHOST"], port = os.environ["REDISPORT"], password = os.environ["REDISPASSWORD"], client_name = None, dont_save = True)
+db = RedisDBLive("bot", "bot", host = os.environ["REDISHOST"], port = os.environ["REDISPORT"], password = os.environ["REDISPASSWORD"], client_name = None, dont_save = True)
